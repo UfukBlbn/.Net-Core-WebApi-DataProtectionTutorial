@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ufukb\\source\\repos\\CoreDataProtectionTutorial\\CoreDataProtectionTutorial\\CoreDataProtectionTutorial.csproj": {}
+    "C:\\Users\\ufukb\\Documents\\GitHub\\.Net-Core-WebApi-DataProtectionTutorial\\CoreDataProtectionTutorial.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ufukb\\source\\repos\\CoreDataProtectionTutorial\\CoreDataProtectionTutorial\\CoreDataProtectionTutorial.csproj": {
+    "C:\\Users\\ufukb\\Documents\\GitHub\\.Net-Core-WebApi-DataProtectionTutorial\\CoreDataProtectionTutorial.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ufukb\\source\\repos\\CoreDataProtectionTutorial\\CoreDataProtectionTutorial\\CoreDataProtectionTutorial.csproj",
+        "projectUniqueName": "C:\\Users\\ufukb\\Documents\\GitHub\\.Net-Core-WebApi-DataProtectionTutorial\\CoreDataProtectionTutorial.csproj",
         "projectName": "CoreDataProtectionTutorial",
-        "projectPath": "C:\\Users\\ufukb\\source\\repos\\CoreDataProtectionTutorial\\CoreDataProtectionTutorial\\CoreDataProtectionTutorial.csproj",
+        "projectPath": "C:\\Users\\ufukb\\Documents\\GitHub\\.Net-Core-WebApi-DataProtectionTutorial\\CoreDataProtectionTutorial.csproj",
         "packagesPath": "C:\\Users\\ufukb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ufukb\\source\\repos\\CoreDataProtectionTutorial\\CoreDataProtectionTutorial\\obj\\",
+        "outputPath": "C:\\Users\\ufukb\\Documents\\GitHub\\.Net-Core-WebApi-DataProtectionTutorial\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ufukb\\AppData\\Roaming\\NuGet\\NuGet.Config",

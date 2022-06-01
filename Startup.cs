@@ -1,4 +1,7 @@
 ﻿using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.DataProtection;
+using Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption;
+using Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
@@ -7,6 +10,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -25,6 +29,18 @@ namespace CoreDataProtectionTutorial
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+
+            
+            services.AddDataProtection()
+                .PersistKeysToFileSystem(new DirectoryInfo(@"C:\key-temp\"))
+                .SetDefaultKeyLifetime(TimeSpan.FromDays(14))
+                .SetApplicationName("Data Protection")
+                .UseCryptographicAlgorithms( new AuthenticatedEncryptorConfiguration()
+                {
+                    EncryptionAlgorithm=EncryptionAlgorithm.AES_128_CBC,
+                    ValidationAlgorithm=ValidationAlgorithm.HMACSHA256
+                });
+
 
             services.AddSwaggerGen(c =>
             {

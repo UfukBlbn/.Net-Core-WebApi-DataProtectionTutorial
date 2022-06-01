@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k5WL+ZCptxVBlnJh/iUjUOQWtCEObl6hgr96h58imIUcIrNKjLcDRbf1uaNeCJyQG9rzjKebyWRHm3oq7J3kqw==",
+  "dgSpecHash": "XOoRreK+yLOdV+T0BJawSFpqpZFx331HwKk/BglLaIQpztV/SY1YPL1c5M0ztf7qKBdGTBVZ+7pZczvtgonYQQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ufukb\\source\\repos\\CoreDataProtectionTutorial\\CoreDataProtectionTutorial\\CoreDataProtectionTutorial.csproj",
+  "projectFilePath": "C:\\Users\\ufukb\\Documents\\GitHub\\.Net-Core-WebApi-DataProtectionTutorial\\CoreDataProtectionTutorial.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ufukb\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\ufukb\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
